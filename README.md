@@ -13,9 +13,13 @@ Execute:
 Action:
 
 Arquillian will start the specified WLS server
+
 Deploy the application
+
 Execute the tests
+`
 Undeploy the application
+
 Stop the server
 
 
