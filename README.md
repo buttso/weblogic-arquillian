@@ -7,7 +7,8 @@ Install and configure a domain of WLS 12.1.3
 Edit src/test/resources/arquillian.xml with the details
 
 Execute:
-$ mvn -P WLS test
+
+```$ mvn -P WLS test
 
 Action:
 
