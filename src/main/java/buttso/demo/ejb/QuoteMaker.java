@@ -33,15 +33,13 @@ public class QuoteMaker {
     };
 
     final Random rnd = new Random(System.currentTimeMillis());
-    static int counter[] = new int[QUOTES.length];
-
+   
     private int next() {
         return rnd.nextInt(QUOTES.length);
     }
 
     private String[] nextQuote() {
         int idx = next();
-        counter[idx] += 1;
         return new String[]{QUOTES[idx][0], QUOTES[idx][1]};
     }
 
@@ -82,11 +80,6 @@ public class QuoteMaker {
             String[] quote = qm.quoteAndAuthor();
             System.out.printf("'%s' %S\n", quote[0], quote[1]);
         }
-
-        for (int x = 0; x < QUOTES.length; x++) {
-            System.out.printf("%s:%s\n", x, counter[x]);
-        }
-
-    }
+  }
 
 }
