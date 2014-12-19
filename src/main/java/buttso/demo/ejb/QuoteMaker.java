@@ -29,8 +29,7 @@ public class QuoteMaker {
         { "When you come to a fork in the road, take it.", "Yogi Berra" },
         { "Always do right. This will gratify some people and astonish the rest.", "Mark Twain" },
         { "If you have nothing to say, say nothing.", "Mark Twain" },
-        { "Don't tell people how to do things, tell them what to do and let them surprise you with their results.", "George S. Patton" },
-        { "Fuck you, I won't do what you tell me.", "Rage Against the Machine" }
+        { "Don't tell people how to do things, tell them what to do and let them surprise you with their results.", "George S. Patton" }
     };
 
     final Random rnd = new Random(System.currentTimeMillis());
