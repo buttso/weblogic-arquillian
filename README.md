@@ -8,7 +8,7 @@ Edit src/test/resources/arquillian.xml with the details
 
 Execute:
 
-```$ mvn -P WLS test
+    $ mvn -P WLS test
 
 Action:
 
