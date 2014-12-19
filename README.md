@@ -1,26 +1,23 @@
 weblogic-arquillian
 ===================
 
-Configure:
+### Configure
 
 Install and configure a domain of WLS 12.1.3
-Edit src/test/resources/arquillian.xml with the details
 
-Execute:
+Edit `src/test/resources/arquillian.xml` with the details
 
-    $ mvn -P WLS test
+### Execute
 
-Action:
+`$ mvn -P WLS test`
 
-Arquillian will start the specified WLS server
+### Action
 
-Deploy the application
-
-Execute the tests
-`
-Undeploy the application
-
-Stop the server
+* Arquillian will start the specified WLS server
+* Deploy the application
+* Execute the tests
+* Undeploy the application
+* Stop the server
 
 
 
